@@ -2,7 +2,9 @@
 
 Submission materials for the **2026 Stellar Community Fund Build Award**, Integration Track.
 
-**Submission title:** REAL8 Community Agents: Financial Inclusion on Stellar, Starting in Venezuela
+**Submission title:** REAL8 Community Agents: Financial Inclusion on Stellar, Across Latin America
+
+**Applicant:** Hispanopedia t/a REAL8 (Spanish non-profit, Málaga)
 
 ## Documents
 
