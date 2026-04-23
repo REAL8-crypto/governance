@@ -269,20 +269,20 @@ REAL8 is the trading name of **Hispanopedia**, a Spanish non-profit organisation
 
 ### Core team (12 members across three continents)
 
-| Name | Location |
-|---|---|
-| Rafael Minuesa (Rafael Martinez Minuesa) — CEO, technical lead, MoneyGram signatory | Marbella, Spain |
-| Anselmo Rodríguez Manzo — co-founder; business and multi-country operations | Baton Rouge, United States |
-| Christophe de Landtsheer | Brussels, Belgium |
-| Lauren Pollack | New York, United States |
-| Eduardo Marín Aznárez | Edinburgh, Scotland |
-| Emmanuel Chávez | Michoacán, Mexico |
-| Ángel Benzal | Cartagena, Spain |
-| Cecilia Velazquez Vertti | Puebla, Mexico |
-| Madeleine Arévalo Camacho | Santa Marta, Colombia |
-| Lucinda Olaseinde | Florence, Italy |
-| Carlos Fernández Andrade | Seville, Spain |
-| Daiki Fujii | Tokyo, Japan |
+| Name | Role | Location |
+|---|---|---|
+| Rafael Minuesa (Rafael Martinez Minuesa) | CEO & Web Development · MoneyGram ToS signatory | Marbella, Spain |
+| Anselmo Rodríguez Manzo | Treasurer · multi-country operations (issue #60 lead) | Baton Rouge, United States |
+| Christophe de Landtsheer | Chief Financial Officer | Brussels, Belgium |
+| Lauren Pollack | VP of Marketing | New York, United States |
+| Eduardo Marín Aznárez | Systems Administrator | Edinburgh, Scotland |
+| Emmanuel Chávez | Multimedia & Digital Developer | Michoacán, Mexico |
+| Ángel Benzal | Investor Relations | Cartagena, Spain |
+| Cecilia Velazquez Vertti | Communications Director | Puebla, Mexico |
+| Madeleine Arévalo Camacho | VP of Public Relations | Santa Marta, Colombia |
+| Lucinda Olaseinde | Social Media Manager | Florence, Italy |
+| Carlos Fernández Andrade | Strategic Historical Advisor | Seville, Spain |
+| Daiki Fujii | Blockchain & Web3 Developer | Tokyo, Japan |
 
 The team is distributed across Europe, the Americas, and Asia, with on-the-ground presence in two of the four pilot markets (Mexico, via Emmanuel Chávez and Cecilia Velazquez Vertti), and adjacent Latin-American coverage through Madeleine Arévalo Camacho (Colombia). Further country-lead coverage for the remaining pilot markets (El Salvador, Venezuela, Argentina) is staffed through the extended partner network described below.
 
