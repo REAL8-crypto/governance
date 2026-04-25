@@ -3,7 +3,7 @@
 **SCF Build Award submission · Integration Track**
 **Project:** REAL8 Community Agents: Financial Inclusion on Stellar, Across Latin America
 **Applicant:** Hispanopedia t/a REAL8 (Spanish non-profit, Málaga)
-**Version:** 1.2 · 2026-04-23
+**Version:** 1.3 · 2026-04-25
 
 ---
 
@@ -325,3 +325,21 @@ What REAL8 would deliver under this Build Award extends — not replaces — REA
 - **real8-bridge** (multi-chain wREAL8) — the agent panel exposes wREAL8 bridging for agents operating in multi-chain regions, reusing the existing bridge automation.
 
 The net effect is a cohesive, Stellar-anchored financial-inclusion platform where the agent network becomes the human-facing last mile of an existing, mature, Stellar-native technology stack.
+
+---
+
+## 13. Phase 2 Roadmap — What the Agent Network Enables
+
+The Build Award scope above is deliberately bounded to one deliverable that REAL8 will ship in 3–5 months: a working Community Agents Network in four pilot countries. We are calling this Phase 1 because, internally, REAL8 sees the agent network as the **enabling layer** for two adjacent products that become viable *because* the agent layer exists. These are explicitly **out of scope for this Build Award** — they are listed here so reviewers understand the strategic direction and the compounding value of funding Phase 1.
+
+### 13.1 Local-merchant payment acceptance (Phase 2A)
+
+Once each pilot country has a small footprint of trusted, KYC'd agents handling cash-in/cash-out, the natural next layer is **enabling the small merchants in those same neighbourhoods to accept REAL8 directly**. The agent who already knows the local business owners is the right person to onboard them. The technical layer reuses what Phase 1 ships (Stellar wallet, federation, indexer) plus adds SEP-7 payment URIs, QR generation, daily reconciliation, and a merchant-side mini-PoS PWA. Phase 2A would be a separate, smaller SCF Integration submission once Phase 1 has validated the agent layer in production.
+
+### 13.2 Corridor-specific remittance product (Phase 2B)
+
+With agents at both ends of a corridor (e.g. an agent in Houston and an agent in Caracas, or an agent in Madrid and an agent in Buenos Aires), REAL8 can offer a **dedicated, end-to-end cash-to-cash remittance product per corridor**, combining: sender-side agent collection in source currency, instant Stellar settlement in REAL8/USDC, receiver-side agent payout in destination currency. This complements — does not replace — REAL8's MoneyGram integration, which covers corridors where MoneyGram has presence; the agent corridor product covers the gaps. Phase 2B reuses Phase 1's agent onboarding, contract anchoring, indexer, and bonification infrastructure, layering corridor-specific compliance and pricing on top.
+
+### 13.3 Why Phase 1 alone is the right Build Award scope
+
+Both Phase 2 products depend on a working agent network to exist; building any of them in parallel with Phase 1 would dilute the deliverable and miss the SCF mainnet-readiness gate at Tranche #3. Phase 1 is the load-bearing piece. Once it ships, Phases 2A and 2B become incremental, separately-fundable extensions rather than speculative greenfield builds. This keeps the Build Award scope tight, the deliverable measurable, and the strategic vision intact.
