@@ -227,7 +227,7 @@ The most significant security risk is that an agent could create fake Stellar de
 5. **Pattern detection** — clusters of destination accounts with shared creation date, shared IP (for any REAL8-owned surface they touched), or sequential Stellar ID runs are flagged.
 6. **Agent deposit (optional)** — 100 REAL8 refundable good-faith deposit at onboarding, forfeited if fraud detected; can be toggled per agent by admin.
 
-Mitigations are implementation-level and configurable — the specific combination to activate will be confirmed with the project's administrative leads (business-side decisions are tracked in GitHub issue #60) during the kickoff milestone.
+Mitigations are implementation-level and configurable — the specific combination to activate will be confirmed with the project's administrative leads during the kickoff milestone.
 
 ---
 
@@ -272,7 +272,7 @@ REAL8 is the trading name of **Hispanopedia**, a Spanish non-profit organisation
 | Name | Role | Location |
 |---|---|---|
 | Rafael Minuesa (Rafael Martinez Minuesa) | CEO & Web Development · MoneyGram ToS signatory | Marbella, Spain |
-| Anselmo Rodríguez Manzo | Treasurer · multi-country operations (issue #60 lead) | Baton Rouge, United States |
+| Anselmo Rodríguez Manzo | Treasurer · multi-country operations · Community Agents Network design lead | Baton Rouge, United States |
 | Christophe de Landtsheer | Chief Financial Officer | Brussels, Belgium |
 | Lauren Pollack | VP of Marketing | New York, United States |
 | Eduardo Marín Aznárez | Systems Administrator | Edinburgh, Scotland |

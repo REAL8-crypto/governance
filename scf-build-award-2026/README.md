@@ -12,5 +12,5 @@ Submission materials for the **2026 Stellar Community Fund Build Award**, Integr
 
 ## Related context
 
-- GitHub issue tracking the broader proposal and design discussion: [REAL8-crypto/silver-wallet#60](https://github.com/REAL8-crypto/silver-wallet/issues/60)
+- The broader proposal and design discussion is tracked in our internal issue tracker (not publicly accessible due to confidential commercial terms; available to REAL8 team members on request).
 - Existing REAL8 stack (already in production): wallet app [`app.real8.org`](https://app.real8.org/), multi-chain bridge (Base, BSC, Optimism, Solana), SEP-2 federation server, MoneyGram integration (in progress), Stripe checkout.
