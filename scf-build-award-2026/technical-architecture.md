@@ -9,7 +9,7 @@
 
 ## 1. Executive Summary
 
-REAL8 is a Stellar-native asset launched in 2018 with a mission of financial inclusion in underserved communities. This proposal describes what REAL8 will build if awarded an SCF Build Award: a **Community Agents Network** — a platform of independent, locally-established operators who buy and sell REAL8 for commission, bringing the asset to people who are cut off from conventional banking rails. The initial deployment is a **pilot network across Mexico, El Salvador, Venezuela, and Argentina** — a deliberately multi-country first phase that lets us validate the model under different regulatory, banking, and currency conditions before expanding to the rest of Latin America and, subsequently, to other regions where the same structural needs exist. Venezuela is included as a specifically enabled market now that OFAC's partial lifting of sanctions on the Banco Central de Venezuela (General License nº 57, April 2026) has removed the previous blocking legal risk for this kind of work.
+REAL8 is a Stellar-native asset launched in 2018 with a mission of financial inclusion in underserved communities. This proposal describes what REAL8 will build if awarded an SCF Build Award: a **Community Agents Network** — a platform of independent, locally-established operators who buy and sell REAL8 for commission, bringing the asset to people who are cut off from conventional banking rails. The initial deployment is a **pilot network across Mexico, El Salvador, Argentina, and Venezuela** — a deliberately multi-country first phase that lets us validate the model under different regulatory, banking, and currency conditions before expanding to the rest of Latin America and, subsequently, to other regions where the same structural needs exist. Venezuela is included as a specifically enabled market now that OFAC's partial lifting of sanctions on the Banco Central de Venezuela (General License nº 57, April 2026) has removed the previous blocking legal risk for this kind of work.
 
 The network is built on top of the existing REAL8 stack: wallet app, multi-chain bridge, SEP-2 federation server, MoneyGram integration, and Stripe checkout — all of which are already in production. With this Build Award, REAL8 will build the specific new surfaces needed to launch the agent network: onboarding, contract anchoring, on-chain activity monitoring, bonification payout, agent and admin panels, and fraud mitigations.
 
@@ -257,9 +257,9 @@ No new infrastructure required. All work composes cleanly into the existing stac
 | M3 — Activity indexer + exclusion list | Weeks 6-8 | Horizon poller with cursor persistence, classification engine, exclusion admin UI |
 | M4 — Agent panel + federation | Weeks 9-11 | Agent dashboard (operations, unique-client progress, bonification estimate), `agent@real8.org` issuance |
 | M5 — Admin panel + bonification job | Weeks 12-14 | Admin review queue, manual audit workflow, monthly bonification cron + automated payout |
-| M6 — Hardening, external audit, pilot launch | Weeks 15-18 | External security review, penetration test, fraud-scenario tabletop, bilingual UX QA, onboard first pilot agents across Mexico, El Salvador, Venezuela and Argentina |
+| M6 — Hardening, external audit, pilot launch | Weeks 15-18 | External security review, penetration test, fraud-scenario tabletop, bilingual UX QA, onboard first pilot agents across Mexico, El Salvador, Argentina and Venezuela |
 
-Final deliverable: a live, auditable agent network with pilot agents onboarded and transacting REAL8 across all four pilot markets (Mexico, El Salvador, Venezuela, Argentina), positioning REAL8 to expand the network to additional Latin American countries and beyond in the quarters that follow.
+Final deliverable: a live, auditable agent network with pilot agents onboarded and transacting REAL8 across all four pilot markets (Mexico, El Salvador, Argentina, Venezuela), positioning REAL8 to expand the network to additional Latin American countries and beyond in the quarters that follow.
 
 ---
 
@@ -284,7 +284,7 @@ REAL8 is the trading name of **Hispanopedia**, a Spanish non-profit organisation
 | Carlos Fernández Andrade | Strategic Historical Advisor | Seville, Spain |
 | Daiki Fujii | Blockchain & Web3 Developer | Tokyo, Japan |
 
-The team is distributed across Europe, the Americas, and Asia, with on-the-ground presence in two of the four pilot markets (Mexico, via Emmanuel Chávez and Cecilia Velazquez Vertti), and adjacent Latin-American coverage through Madeleine Arévalo Camacho (Colombia). Further country-lead coverage for the remaining pilot markets (El Salvador, Venezuela, Argentina) is staffed through the extended partner network described below.
+The team is distributed across Europe, the Americas, and Asia, with on-the-ground presence in two of the four pilot markets (Mexico, via Emmanuel Chávez and Cecilia Velazquez Vertti), and adjacent Latin-American coverage through Madeleine Arévalo Camacho (Colombia). Further country-lead coverage for the remaining pilot markets (El Salvador, Argentina, Venezuela) is staffed through the extended partner network described below.
 
 Full team profiles: [real8.org/en/our-team/](https://real8.org/en/our-team/)
 
@@ -309,7 +309,7 @@ REAL8 also collaborates with cultural associations, NPO partners, academics, fin
 
 ## 11. Risks & Dependencies
 
-- **Legal review — per pilot country:** each of the four pilot markets (Mexico, El Salvador, Venezuela, Argentina) has its own regulatory context and is covered in parallel by the respective country leads. Venezuela's case is specifically unblocked by OFAC General License nº 57 (April 2026), which lifted the prior sanctions on the Banco Central de Venezuela; country-specific legal confirmation remains a gating item in every market before live pilot.
+- **Legal review — per pilot country:** each of the four pilot markets (Mexico, El Salvador, Argentina, Venezuela) has its own regulatory context and is covered in parallel by the respective country leads. Venezuela's case is specifically unblocked by OFAC General License nº 57 (April 2026), which lifted the prior sanctions on the Banco Central de Venezuela; country-specific legal confirmation remains a gating item in every market before live pilot.
 - **KYC provider selection:** deferred to M1. Candidate vendors: Sumsub, Onfido. Fallback: in-house document collection + manual review for the pilot window.
 - **DocuSign or equivalent:** small external dependency for off-chain PDF signing. Can be replaced with any signing provider that returns a canonical PDF hashable to SHA-256.
 - **Dependency on upstream Stellar infrastructure:** all operations use public Horizon; SDF-operated Horizon is the primary target with community-run backups for redundancy.
