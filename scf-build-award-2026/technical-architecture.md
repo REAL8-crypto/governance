@@ -3,7 +3,7 @@
 **SCF Build Award submission · Integration Track**
 **Project:** REAL8 Community Agents: Financial Inclusion on Stellar, Across Latin America
 **Applicant:** Hispanopedia t/a REAL8 (Spanish non-profit, Málaga)
-**Version:** 1.3 · 2026-04-25
+**Version:** 1.4 · 2026-04-26
 
 ---
 
@@ -94,6 +94,23 @@ The Integration Track is specifically for projects "incorporating existing Stell
 | **Classic REAL8 payments** | The bonification payout is a standard REAL8 asset payment from a dedicated distribution account to the agent account — reusing the sequence-isolated distribution pattern already in use for Stripe checkout (account `GCK5CADT4FYE4I6ILZQ42KB6AGHYZ7UVRVX3ERGNDN7ZHYO5BBPQ7UZQ`). |
 
 These are **all production-grade, Stellar-native primitives**. The project ships no custom Stellar protocol extensions; it composes existing SEPs and operations into a cohesive financial-inclusion network.
+
+### 4.1 wREAL8 cross-chain footprint (verifiable on-chain)
+
+REAL8 is also live as **wREAL8** on four additional chains, deployed and operating in production. Reviewers can verify each contract directly on its native block explorer:
+
+| Chain | wREAL8 contract address | Explorer |
+|---|---|---|
+| Base (chain ID 8453) | `0x9f1605a496FD56A728bbd088Cf2Ecade4d40129c` | [basescan.org →](https://basescan.org/token/0x9f1605a496FD56A728bbd088Cf2Ecade4d40129c) |
+| BSC (chain ID 56) | `0x34445f2cbA3964b5E814dB419F2beF12420A4C49` | [bscscan.com →](https://bscscan.com/token/0x34445f2cbA3964b5E814dB419F2beF12420A4C49) |
+| Optimism (chain ID 10) | `0x34445f2cbA3964b5E814dB419F2beF12420A4C49` | [optimistic.etherscan.io →](https://optimistic.etherscan.io/token/0x34445f2cbA3964b5E814dB419F2beF12420A4C49) |
+| Solana (mainnet-beta) | `2wy52bRjFd9dsNDF92GgVWVHpEBn3h9pT5j9CZKFDsu4` | [solscan.io →](https://solscan.io/token/2wy52bRjFd9dsNDF92GgVWVHpEBn3h9pT5j9CZKFDsu4) |
+
+The Stellar-side wREAL8 issuer is `GADYIWMD5P75ZHTVIIF6ADU6GYE5T7WRZIHAU4LPAZ4F5IMPD7NRK7V7` (see [`w.real8.org/.well-known/stellar.toml`](https://w.real8.org/.well-known/stellar.toml) for the full asset metadata, supply, and `[BRIDGE]` section).
+
+A `bridge-automation` service running 24/7 on `api.real8.org` monitors Stellar for inbound REAL8 deposits and atomically mints the equivalent wREAL8 on the destination chain (auto-mint live for Base, BSC, and Optimism since 2026-03-25; reverse burn-and-unwrap live since 2026-04-01). The federation server (`api.real8.org/federation`) and SEP-10 web auth (`api.real8.org/auth`) are the Stellar-side primitives that tie the two networks together.
+
+**The Community Agents Network — the scope of this Build Award — is Stellar-native and does not require these EVM contracts directly.** They are referenced here as verifiable evidence of the existing production stack the agent network is built on top of.
 
 ---
 
